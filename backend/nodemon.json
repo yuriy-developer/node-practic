@@ -1,0 +1,11 @@
+{
+  "watch": ["."],
+  "ext": "js,json",
+  "exec": "node index.js",
+  "ignore": ["node_modules", "logs", ".git"],
+  "delay": "200ms",
+  "signal": "SIGTERM",
+  "execMap": {
+    "js": "node --expose-gc"
+  }
+}
