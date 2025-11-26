@@ -12,4 +12,4 @@ RUN npm install -g nodemon
 
 EXPOSE 4000
 
-CMD ["npx", "nodemon", "index.js"]
+CMD ["nodemon", "index.js"]
